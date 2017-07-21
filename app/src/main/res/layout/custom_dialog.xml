@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="#f2f2f2"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Procenty v1.2"
+        android:textSize="20sp"
+        android:id="@+id/alert_title"
+        android:textStyle="normal|bold"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/custom_dialog_tv_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="left"
+        android:text="\nProgramista: Maciej Karczewski\nWszelkie prawa zastrzeżone © 2017\n"
+        android:textSize="17sp"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/custom_dialog_btn_done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_red_dark"
+        android:gravity="center"
+        android:text="OK"
+        android:textColor="#fff"
+        android:textSize="15sp" />
+
+</LinearLayout>

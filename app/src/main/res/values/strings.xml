@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Procenty</string>
+    <string name="reset">Resetuj</string>
+    <string name="about">O programie</string>
+    <string name="exit">Wyjście</string>
+    <string name="share">Share</string>
+</resources>
